@@ -1,0 +1,649 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background: rgba(255, 255, 255, 0.103) url("../img/bg-line.svg");
+    background-repeat: round;
+    background-position-x: center;
+    background-size: 246px;
+}
+*{
+    position: relative;
+    z-index: 3;
+}
+img{
+    display: block;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+    color: #23242C;
+}
+h1 img{
+    display: inline-block;
+}
+h3{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #967675;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+header{
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.151);
+}
+.logo {
+    padding: 58px 0 0 0;
+}
+.navbar-header{
+    padding: 25px 0 25px 0;
+}
+.nav li{
+    padding-right: 10px;
+}
+.nav a{
+    color: #23242C;
+    transition: .3s color ease;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #23242c80;
+}
+#Introducing{
+    padding: 0 0 100px 0;
+}
+.intro-title{
+    margin-top: 100px;
+}
+.intro-title h1{
+    position: relative;
+    margin-bottom: 50px;
+    z-index: 10;
+}
+.button{
+    padding: 18px 47px;
+    color: #967675;
+    border: 1px solid #CFADAC;
+    border-radius: 6px;
+    box-shadow: 0 3px 10px #967675;
+    transition: .3s all ease;
+}
+.button:hover{
+    text-decoration: none;
+    background-color: #967675;
+    border: none;
+    color: #fff;
+    box-shadow: none;
+}
+.intro-img{
+    margin-top: 70px;
+}
+.intro-img .img-1{
+    position: relative;
+    z-index: 5;
+}
+.intro-img .img-2{
+    position: relative;
+    z-index: 3;
+    left: 142px;
+    top: -107px;
+}
+.intro-img .intro-bg-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.intro-img .intro-bg-2{
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    z-index: 2;
+}
+.intro-info p{
+    width: 80%;
+    margin: 20px 20px 0 auto;
+}
+.for-headwear img{
+    width: 100%;
+    height: auto;
+}
+.headwear-title{
+    margin: 40px;
+}
+.headwear-title h1{
+    margin-bottom: 70px;
+}
+
+
+.different-hats{
+    padding: 100px 0 0 0;
+}
+.different-hats-title{
+    margin-top: 83px;
+}
+.different-hats img{
+    width: 95%;
+    height: auto;
+}
+.hat-info{
+    width: 95%;
+    background: #F6ECE8;
+    padding: 30px;
+}
+.hat-info h2{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 38px;
+    color: #967675;
+}
+.hat-info p{
+    width: 72%;
+    margin: 0 auto;
+}
+.other-hats{
+    margin-top: 70px;
+}
+.other-hats h3{
+    position: relative;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    line-height: 50px;
+    font-weight: 900;
+}
+.other-hats h3::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 27px;
+    height: .5px;
+    width: 23%;
+    background-color: #967675;
+}
+.other-hats h3::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 27px;
+    height: .5px;
+    width: 23%;
+    background-color: #967675;
+}
+.other-hats h1{
+    position: absolute;
+    top: -50%;
+    left: 20%;
+    color: #F6F6F7;
+    font-size: 132px;
+}
+.hat-end{
+    padding: 290px 0;
+}
+.hat-end h2{
+    position: relative;
+    Font-style: bold;
+    font-size: 38px;
+    Line-height: 64px;
+    font-family: 'Playfair Display', serif;
+    z-index: 7;
+} 
+.hat-end .ellipse-int{
+    position: absolute;
+    width: 341px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+}
+.hat-end .ellipse-ext{
+    position: absolute;
+    width: 518px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.hat-end .left-bg{
+    display: none;
+    position: absolute;
+    width: 100px;
+    left: 10%;
+    top: 45%;
+    transform: translate(-10%,-45%);
+}
+.hat-end .right-bg{
+    display: none;
+    position: absolute;
+    width: 100px;
+    left: 90%;
+    top: 55%;
+    transform: translate(-90%,-55%);
+}
+
+.connection{
+    background-color: #F9F2EF;
+    padding: 70px 0;
+}
+.connection .input-box{
+    padding-top: 75px;
+}
+.connection .input-box input{
+    border: none;
+    outline: none;
+}
+.connection .input-box input[type="text"]{
+    width: 80%;
+    border: none;
+    background-color: #F9F2EF;
+    border-bottom: 1px solid rgba(150, 118, 117, 0.5);
+    outline: none;
+}
+.connection .input-box input::placeholder{
+    color: rgba(150, 118, 117, 0.5);
+}
+.connection .input-box input[type="submit"]{
+    margin: 20px 0 0 0;
+    background-color: #fff;
+    color: #967675;
+    border: 1px solid #CFADAC;
+    padding: 9px 40px;
+    border-radius: 6px;
+    transition: .3s all ease;
+}
+.connection .input-box input[type="submit"]:hover{
+    background-color: #967675;
+    color: #fff;
+}
+
+.footer{
+    background-color: #23242C;
+    padding: 100px 0;
+    text-align: center;
+}
+.footer img{
+    margin: 0 auto;
+}
+.footer-item-1 h4{
+    margin: 20px auto;
+    color: #fff;
+    width: 70%;
+    font-size: 18px;
+    line-height: 32px;
+}
+.footer-item-1 p{
+    color: #919195;
+}
+.footer h3{
+    color: #FAF7F3;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 30px;
+}
+.footer ul{
+    padding: 0;
+}
+.footer li{
+    padding-top: 15px;
+}
+.footer li a{
+    color: #fff;
+    transition: .3s all ease;
+}
+.footer li a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+@media(min-width:576px){
+    #Introducing{
+        padding-top: 0;
+    }
+    .footer h3{
+        margin-top: 50px;
+    }
+    .other-hats h1{
+        left: 20%;
+    }
+}
+
+@media(min-width:768px){
+    h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 72px;
+    line-height: 70px;
+    font-weight: bold;
+    color: #23242C;
+    }
+    h3{
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 50px;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        color: #967675;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+    .logo {
+        padding: 68px 0 0 0;
+    }
+    .navbar-header{
+        padding: 25px 0 25px 0;
+    }
+    .nav li{
+        padding-right: 30px;
+    }
+    .nav a{
+        color: #23242C;
+        transition: .3s color ease;
+        text-decoration: none;
+    }
+    .nav a:hover{
+        color: #23242c80;
+    }
+    #Introducing{
+        padding: 120px 0 150px 0;
+    }
+    .intro-title{
+        margin-top: 100px;
+    }
+    .intro-title h1{
+        position: relative;
+        margin-bottom: 50px;
+        z-index: 10;
+    }
+    .button{
+        padding: 18px 47px;
+        color: #967675;
+        border: 1px solid #CFADAC;
+        border-radius: 6px;
+        box-shadow: 0 3px 10px #967675;
+        transition: .3s all ease;
+    }
+    .button:hover{
+        text-decoration: none;
+        background-color: #967675;
+        border: none;
+        color: #fff;
+        box-shadow: none;
+    }
+    .intro-img .img-1{
+        position: relative;
+        z-index: 5;
+    }
+    .intro-img .img-2{
+        position: relative;
+        top: -231px;
+        left: 142px;
+        z-index: 3;
+    }
+    .intro-img .intro-bg-1{
+        position: absolute;
+        top: 0;
+        left: -200px;
+        z-index: 10;
+    }
+    .intro-img .intro-bg-2{
+        position: absolute;
+        left: -70px;
+        top: 150px;
+        z-index: 1;
+    }
+    .intro-info p{
+        width: 80%;
+        margin: 20px 20px 0 auto;
+    }
+    .for-headwear img{
+        width: 100%;
+        height: 100%;
+    }
+    .headwear-title{
+        margin: 0 0 0 40px;
+    }
+    .headwear-title h1{
+        margin-bottom: 50px;
+    }
+    .different-hats{
+        padding: 200px 0 0 0;
+    }
+    .different-hats-title{
+        margin-top: 0;
+    }
+    .different-hats h1{
+        margin-bottom: 120px;
+    }
+    .different-hats img{
+        width: 95%;
+        height: auto;
+    }
+    .hat-info{
+        width: 95%;
+        background: #F6ECE8;
+        padding: 30px;
+    }
+    .hat-info h2{
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-size: 48px;
+        color: #967675;
+    }
+    .hat-info p{
+        width: 72%;
+        margin: 0 auto;
+    }
+    .margin-top{
+        margin-top: 83px;
+    }
+    .other-hats{
+        margin-top: 70px;
+    }
+    .other-hats h3{
+        position: relative;
+        font-size: 36px;
+        font-family: 'Playfair Display', serif;
+        font-style: normal;
+        line-height: 50px;
+        font-weight: 900;
+    }
+    .other-hats h3::before{
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 27px;
+        height: .5px;
+        width: 39%;
+        background-color: #967675;
+    }
+    .other-hats h3::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        top: 27px;
+        height: .5px;
+        width: 38%;
+        background-color: #967675;
+    }
+    .other-hats h1{
+        position: absolute;
+        top: -70%;
+        left: 20%;
+        color: #F6F6F7;
+        font-size: 182px;
+    }
+    .hat-end{
+        padding: 290px 0;
+    }
+    .hat-end h2{
+        position: relative;
+        Font-style: bold;
+        font-size: 48px;
+        Line-height: 64px;
+        font-family: 'Playfair Display', serif;
+        z-index: 7;
+    } 
+    .hat-end .ellipse-int{
+        position: absolute;
+        width: 341px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 3;
+    }
+    .hat-end .ellipse-ext{
+        position: absolute;
+        width: 518px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .hat-end .left-bg{
+        display: block;
+        position: absolute;
+        width: 100px;
+        left: 10%;
+        top: 40%;
+        transform: translate(-10%,-40%);
+    }
+    .hat-end .right-bg{
+        display: block;
+        position: absolute;
+        width: 100px;
+        left: 70%;
+        top: 60%;
+        transform: translate(-70%,-60%);
+    }
+
+    .connection{
+        background-color: #F9F2EF;
+        padding: 70px 0;
+    }
+    .connection .input-box{
+        padding-top: 75px;
+    }
+    .connection .input-box input{
+        border: none;
+        outline: none;
+    }
+    .connection .input-box input[type="text"]{
+        width: 70%;
+        border: none;
+        background-color: #F9F2EF;
+        border-bottom: 1px solid rgba(150, 118, 117, 0.5);
+        outline: none;
+    }
+    .connection .input-box input::placeholder{
+        color: rgba(150, 118, 117, 0.5);
+    }
+    .connection .input-box input[type="submit"]{
+        margin: 0 0 0 30px;
+        background-color: #fff;
+        color: #967675;
+        border: 1px solid #CFADAC;
+        padding: 9px 40px;
+        border-radius: 6px;
+        transition: .3s all ease;
+    }
+    .connection .input-box input[type="submit"]:hover{
+        background-color: #967675;
+        color: #fff;
+    }
+
+    .footer{
+        background-color: #23242C;
+        padding: 130px 0 100px 0;
+        text-align: left;
+    }
+    .footer img{
+        display: block;
+        margin: 0;
+    }
+    .footer-item-1 h4{
+        margin: 40px auto 0 0;
+        color: #fff;
+        width: 80%;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .footer-item-1 p{
+        margin-top: 40px;
+        color: #919195;
+    }
+    .footer h3{
+        color: #FAF7F3;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 32px;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 0;
+    }
+    .footer ul{
+        padding: 0;
+    }
+    .footer li{
+        padding-top: 15px;
+    }
+    .footer li a{
+        color: #fff;
+        transition: .3s all ease;
+    }
+    .footer li a:hover{
+        text-decoration: underline;
+        color: rgba(255, 255, 255, 0.555);
+    }
+
+}
+
+@media(min-width:992px){
+    h1{
+        font-size: 90px;
+        line-height: 90px;
+    }
+    h2{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    h3{
+       font-size: 38px;
+       line-height: 50px; 
+    }
+    .intro-title h1{
+        margin-bottom: 80px;
+    }
+    .headwear-title h1{
+        margin-bottom: 70px;
+    }
+    .other-hats h1{
+        left: 30%;
+    }
+    .hat-end .left-bg{
+        left: 10%;
+        top: 45%;
+        transform: translate(-10%,-45%);
+    }
+    .hat-end .right-bg{
+        left: 85%;
+        top: 55%;
+        transform: translate(-85%,-55%);
+    }
+    .footer-item-1 p{
+        margin-top: 80px;
+    }
+}
